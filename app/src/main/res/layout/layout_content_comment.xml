@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageView_head"
+            android:layout_width="40dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/biz_pc_main_info_profile_avatar_bg_dark"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/text_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="河南网友"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_marginLeft="18dp"
+            android:textColor="@color/red"
+            android:layout_toRightOf="@+id/imageView_head"
+            android:layout_alignTop="@+id/imageView_head"/>
+
+        <TextView
+            android:id="@+id/text_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2016-9-12"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+            android:layout_alignBottom="@+id/text_title"/>
+
+        <TextView
+            android:id="@+id/text_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="666666666666666"
+            android:layout_alignLeft="@+id/text_title"
+            android:layout_below="@+id/text_title"
+            android:layout_marginTop="5dp"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

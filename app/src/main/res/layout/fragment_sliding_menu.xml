@@ -1,0 +1,180 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_slidingmenu_left">
+
+    <RelativeLayout
+        android:id="@+id/iv_sliding_news"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/iv_sliding_news2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/biz_navigation_tab_news" />
+
+        <TextView
+            android:id="@+id/tv_sliding_news"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/iv_sliding_news2"
+            android:layout_alignTop="@+id/iv_sliding_news2"
+            android:text="新闻"
+            android:textSize="16sp"
+            android:textColor="#99ffffff"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="News"
+            android:textSize="16sp"
+            android:textColor="#99ffffff"
+            android:layout_toRightOf="@+id/iv_sliding_news2"
+            android:layout_alignBottom="@+id/iv_sliding_news2"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/iv_sliding_favorite"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/iv_sliding_favorite2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/biz_navigation_tab_pics" />
+
+        <TextView
+            android:id="@+id/tv_sliding_read"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/iv_sliding_favorite2"
+            android:layout_alignTop="@+id/iv_sliding_favorite2"
+            android:text="收藏"
+            android:textSize="16sp"
+            android:textColor="#99ffffff"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Read"
+            android:textSize="16sp"
+            android:textColor="#99ffffff"
+            android:layout_toRightOf="@+id/iv_sliding_favorite2"
+            android:layout_alignBottom="@+id/iv_sliding_favorite2"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/iv_sliding_ties"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/iv_sliding_ties2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/biz_navigation_tab_ties" />
+
+        <TextView
+            android:id="@+id/tv_sliding_ties"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/iv_sliding_ties2"
+            android:layout_alignTop="@+id/iv_sliding_ties2"
+            android:text="消息"
+            android:textSize="16sp"
+            android:textColor="#99ffffff"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Message"
+            android:textSize="16sp"
+            android:textColor="#99ffffff"
+            android:layout_toRightOf="@+id/iv_sliding_ties2"
+            android:layout_alignBottom="@+id/iv_sliding_ties2"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/iv_sliding_local"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/iv_sliding_local2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/biz_navigation_tab_local_news" />
+
+        <TextView
+            android:id="@+id/tv_sliding_local"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/iv_sliding_local2"
+            android:layout_alignTop="@+id/iv_sliding_local2"
+            android:text="本地"
+            android:textSize="16sp"
+            android:textColor="#99ffffff"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Local"
+            android:textSize="16sp"
+            android:textColor="#99ffffff"
+            android:layout_toRightOf="@+id/iv_sliding_local2"
+            android:layout_alignBottom="@+id/iv_sliding_local2"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/iv_sliding_read"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/iv_sliding_read2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/biz_navigation_tab_read" />
+
+        <TextView
+            android:id="@+id/tv_sliding_pics"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/iv_sliding_read2"
+            android:layout_alignTop="@+id/iv_sliding_read2"
+            android:text="图片"
+            android:textSize="16sp"
+            android:textColor="#99ffffff"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pics"
+            android:textSize="16sp"
+            android:textColor="#99ffffff"
+            android:layout_toRightOf="@+id/iv_sliding_read2"
+            android:layout_alignBottom="@+id/iv_sliding_read2"/>
+
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>
